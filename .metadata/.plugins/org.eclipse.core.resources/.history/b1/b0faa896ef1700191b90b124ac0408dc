@@ -1,0 +1,27 @@
+package com.capgemini.springBootDemo.restService;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+
+import com.capgemini.springBootDemo.employee.Employee;
+import com.capgemini.springBootDemo.restRepo.EmployeeRepository;
+
+public class EmployeeServiceImpl implements EmployeeService{
+
+	@Autowired
+	private EmployeeRepository employeeRepository;
+	
+	@Override
+	public void addNewEmployee(Employee employee) {
+		//Session.save(employee);	
+	}
+
+	@Override
+	public List<Employee> getAllEmployees() {
+
+		return null;
+	}
+
+}

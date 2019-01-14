@@ -1,0 +1,5 @@
+package com.capgemini.springBootDemo.restRepo;
+
+public interface EmployeeRepository {
+
+}

@@ -1,0 +1,5 @@
+package com.capgemini.springBootDemo.restController;
+
+public class EmployeeResource {
+
+}
